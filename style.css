@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@300;700&display=swap');
+body{
+    font-family: "Roboto " , sans-serif;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 23px #262f7547;
+    border-radius: 20px;
+    width: 400px;
+}
+.mediaCard{
+    background: url("https://cdn.domestika.org/c_fit,dpr_1.0,f_auto,q_80,t_base_params,w_610/v1602261796/content-items/005/962/814/ponyo049-original.jpg?1602261796") center/ cover;
+    height:300px;
+    width:100%;
+}
+.title{
+   color: #1a2367;;
+}
+.secondText{
+    color: #8d91b1a3;
+}
+.bottomText{
+    color: #343677;
+}
+.topcard {
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomcard {
+    padding: 20px;
+}
+button.actioncard {
+    background: none;
+    border: none;
+    color: purple;
+}
